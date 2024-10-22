@@ -1,0 +1,13 @@
+*{
+font-size:small ;
+}
+.example {
+    background-color: rgb(255, 166, 0);
+}
+h1{
+    color: hwb(357 12% 10%);
+}
+
+.textClass{
+    color: green;
+}

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Фоновый цвет</title>
+    <style>
+        /* 
+                Властивість background-color дозволяє встановити елемент фонового кольору. Колір можна ставити кількома способами:
+                - шістнадцятковим значенням
+                - функцією RGB(red, green, blue)
+                - функцією hsla(hue, saturation, lightness, opacity) http://www.workwithcolor.com/hsl-color-picker-01.htm
+        */
+        div {            
+            background-color: #3366CC;
+        }
+        p {
+            background-color: RGB(249, 201, 16);
+        }
+        span {
+            background-color: hsla(112, 89%, 36%, 0.53)
+        }
+    </style>
+</head>
+<body>    
+    <div>
+        <h1>
+            Заголовок внутри элемента div.
+        </h1>
+        <p>
+            Параграф внутри элемента <span>div</span>.
+        </p>
+    </div>
+</body>
+</html>

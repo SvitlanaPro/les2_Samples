@@ -1,0 +1,17 @@
+﻿p {
+    background-color: greenyellow;
+}
+/* Коментарі */
+h1{
+    color: #8400ff; 
+}
+h2{
+    background-color: #b2dfef;
+}
+p{
+    color: #ff000d;
+    background-color: #efb2d4;
+}
+span{
+    font-size: 30px;
+}
